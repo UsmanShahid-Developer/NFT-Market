@@ -2,6 +2,10 @@ import React from 'react'
 import "./Discovernft.css"
 import Button from '../button/Button'
 import Discovernftcard from '../discovernftcard/Discovernftcard'
+import img8 from "../../assets/NFT Card.png"
+import img81 from "../../assets/NFT Card (1).png"
+import img82 from "../../assets/NFT2 Card.png"
+
 
 function Discovernft() {
   return (
@@ -19,14 +23,14 @@ function Discovernft() {
                 </div>
                 <div className='row'>
                     <div className='col-lg-4 col-md-6 col-sm-12 mx-auto'>
-                        <Discovernftcard/>
+                        <Discovernftcard image3={img8} />
                     </div>
                     <div className='col-lg-4 col-md-6 col-sm-12 mx-auto'>
-                    <Discovernftcard/>
+                    <Discovernftcard image3={img81}/>
 
                     </div>
                     <div className='col-lg-4 col-md-6 col-sm-12 mx-auto'>
-                    <Discovernftcard/>
+                    <Discovernftcard image3={img82}/>
 
                     </div>
                 </div>

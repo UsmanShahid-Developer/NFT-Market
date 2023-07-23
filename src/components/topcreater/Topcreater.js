@@ -19,9 +19,19 @@ function Topcreater() {
     return (
         <div>
             
-            <div className='container p-5'>
-                
-                <div className='row'>
+            <div className='container mt-5'>                
+            <div className='row '>
+            <div className='col-lg-7 col-md-7  text-white discoverstyle '>
+                    <h2>
+                    Top creators   </h2>
+                    <p>
+                    Checkout Top Rated Creators on the NFT Marketplace     </p>
+                </div>
+                <div className='col-lg-3 col-md-3 text-white  button2style ms-5'>
+                <Button/>
+                </div>
+            </div>
+                <div className='row paddingtopcreate mt-5'>
                     <div className='col-lg-3 col-md-4 col-sm-6'>
                         <TopCreators number="1"name="Keepitreal" image={img9}/>
                     </div>
@@ -35,7 +45,7 @@ function Topcreater() {
                         <TopCreators number="4"name="Juanie" image={img12}/>
                     </div>
                 </div>
-                <div className='row'>
+                <div className='row paddingtopcreate'>
                     <div className='col-lg-3 col-md-4 col-sm-6'>
                         <TopCreators number="5" name="BlueWhale" image={img13}/>
                     </div>
@@ -49,7 +59,7 @@ function Topcreater() {
                         <TopCreators number="8" name="robotica" image={img16}/>
                     </div>
                 </div>
-                <div className='row'>
+                <div className='row paddingtopcreate'>
                     <div className='col-lg-3 col-md-4 col-sm-6'>
                         <TopCreators number="9" name="RustyRobot" image={img17}/>
                     </div>

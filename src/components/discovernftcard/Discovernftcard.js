@@ -1,11 +1,10 @@
 import React from 'react'
 import "./Discovernftcard.css"
-import img8 from "../../assets/NFT Card.png"
 
-function Discovernftcard() {
+function Discovernftcard(props) {
   return (
     <div className='card mx-auto bg-dark me-5 img-fluid img8style'>
-       <img src={img8}/>
+       <img src={props.image3}/>
     </div>
   )
 }

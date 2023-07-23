@@ -4,11 +4,14 @@ import Trendingcard from '../../components/treandingcollection/Trendingcollectio
 import Discoverdigitalart from '../../components/discoverdigitalart/Discoverdigitalart';
 import Discovernft from '../../components/discovernft/Discovernft';
 import Topcreater from '../../components/topcreater/Topcreater';
-
+import Browsercatagory from '../../components/browsercatagory/Browsercatagory';
+import Footer from '../../components/footer/Footer';
 
 
 export default function Homepage() {
   return (
-    <div></div>
+    <div>
+
+    </div>
   )
 }
