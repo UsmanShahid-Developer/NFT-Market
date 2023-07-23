@@ -14,7 +14,7 @@ export default function Discoverdigitalart() {
                         <p>NFT marketplace UI created with Anima for  <br />Figma. Collect, buy and sell art from more  <br /> than 20k NFT artists.</p>
                         <Button/>
                         <br/>
-                       <div className='row'>
+                       <div className='row mt-4'>
                         <div className='col'>
                             <h3>240k+</h3>
                         <p>Total Sale</p>
@@ -33,7 +33,7 @@ export default function Discoverdigitalart() {
                        </div>
                     </div>
                     <div className='col-lg-6 col-md-6 col-sm-12'>
-                        <div class="card bg-dark cardstyle" >
+                        <div class="card bg-dark cardstyle mx-auto" >
                             <img src={img3}class="card-img-top" alt="..."/>
                                 <div class="card-body bg-dark">
                                     <h5 class="card-title bg-dark text-white">Space Walking</h5>
